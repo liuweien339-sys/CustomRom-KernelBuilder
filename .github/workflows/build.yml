@@ -443,7 +443,7 @@ jobs:
 
           elif [[ "${{ inputs.droidspaces }}" == "None" ]]; then
           
-          ui_pint "Skiped DroidSpaces"
+          echo "Skiped DroidSpaces"
 
           fi
           
